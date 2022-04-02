@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ehi5lovyv/x7GxVD6IXWvqTnKeZBPIGZ82fN2u2JcGmhBsWDQ67MnHmP7YgMuAK1taoSUnjsCU/zhk/dV0uelA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\l.lourenco.de.souza\\Desktop\\Projetos\\Consultorio_Legal\\CL.Manager\\CL.Manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\l.lourenco.de.souza\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

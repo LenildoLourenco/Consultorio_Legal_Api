@@ -1,0 +1,40 @@
+2022-03-09 11:29:16.826 -03:00 [INF] Iniciando o WebApi
+2022-03-09 11:29:21.088 -03:00 [INF] Entity Framework Core 3.1.8 initialized 'ClContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-03-09 11:29:23.033 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-03-09 11:29:23.059 -03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-09 11:29:23.063 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-03-09 11:29:23.063 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-09 11:29:23.084 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-03-09 11:29:23.103 -03:00 [INF] No migrations were applied. The database is already up to date.
+2022-03-09 11:29:23.104 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-03-09 11:29:23.139 -03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2022-03-09 11:29:23.472 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-09 11:29:23.472 -03:00 [INF] Hosting environment: Development
+2022-03-09 11:29:23.472 -03:00 [INF] Content root path: C:\Users\l.lourenco.de.souza\Desktop\Projetos\Consultorio_Legal\CL.WebApi
+2022-03-09 11:29:23.541 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44360/index.html  
+2022-03-09 11:29:23.674 -03:00 [INF] Request finished in 135.7507ms 200 text/html;charset=utf-8
+2022-03-09 11:29:23.801 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44360/swagger/v1/swagger.json  
+2022-03-09 11:29:23.968 -03:00 [INF] Request finished in 166.763ms 200 application/json;charset=utf-8

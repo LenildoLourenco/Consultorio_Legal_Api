@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CL.Core.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:CL.Core.Shared.ModelViews.Cliente.NovoCliente">
+            <summary>
+            Objeto utilizado para inserção de um novo cliente
+            </summary>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Cliente.NovoCliente.Nome">
+            <summary>
+            Nome do Cliente
+            </summary>
+            <example>Bob Esponja Calça Quadrada</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Cliente.NovoCliente.DataNascimento">
+            <summary>
+            Data de Nascimento do Cliente
+            </summary>
+            <example>1980-01-01</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Cliente.NovoCliente.Sexo">
+            <summary>
+            Sexo do Cliente
+            </summary>
+            <example>M</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Cliente.NovoCliente.Documento">
+            <summary>
+            Documento do Cliente: CNH, CPF, RG
+            </summary>
+            <example>1234567890</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Endereco.NovoEndereco.CEP">
+            <example>50000000</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Endereco.NovoEndereco.Cidade">
+            <example>Recife</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Endereco.NovoEndereco.Logradouro">
+            <example>Rua A</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Endereco.NovoEndereco.Numero">
+            <example>50</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Endereco.NovoEndereco.Complemento">
+            <example>Ao lado da rua b</example>
+        </member>
+        <member name="T:CL.Core.Shared.ModelViews.Medico.NovoMedico">
+            <summary>
+            Objeto utilizado para inserção de um novo médico
+            </summary>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Medico.NovoMedico.Nome">
+            <summary>
+            Nome do Médico
+            </summary>
+            <example>Bob Esponja Calça Quadrada</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Medico.NovoMedico.CRM">
+            <summary>
+            CRM do Médico
+            </summary>
+            <example>28815</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Medico.NovoMedico.Especialidades">
+            <summary>
+            Especialidade do Médico
+            </summary>
+            <example>Clínico Geral</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelViews.Telefone.NovoTelefone.Numero">
+            <summary>
+            Telefone do Cliente
+            </summary>
+            <example>87999999999</example>
+        </member>
+    </members>
+</doc>
